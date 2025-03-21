@@ -61,6 +61,13 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Utilizar selector para aplicar propiedades a todas las etiquetas <article> */
+article {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
 /* Utilizar selector para aplicar propiedades a <aside> */
 aside {
     float: left;
