@@ -91,6 +91,14 @@ footer {
     background-color: #5e9911;
 }
 
+#destacado {
+    background-color: #ddd;
+}
+
+#destacado:hover {
+    background-color: white;
+}
+
 /* Utilizar selector para aplicar propiedades a la clase "fuenteArial" */
 .fuenteArial {
     font-family: 'Arial', sans-serif;
