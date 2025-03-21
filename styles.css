@@ -81,6 +81,10 @@ footer {
     clear: both;
 }
 
+#principal {
+    background-color: #118299;
+}
+
 /* Utilizar selector para aplicar propiedades a la clase "fuenteArial" */
 .fuenteArial {
     font-family: 'Arial', sans-serif;
