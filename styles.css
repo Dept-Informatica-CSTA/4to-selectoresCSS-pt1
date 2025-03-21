@@ -66,6 +66,7 @@ article {
     padding: 10px;
     border: 1px solid #eee;
     border-radius: 10px;
+    margin: 10px 0px;
 }
 
 /* Utilizar selector para aplicar propiedades a <aside> */
