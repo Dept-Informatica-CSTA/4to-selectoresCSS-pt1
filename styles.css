@@ -81,8 +81,14 @@ footer {
     clear: both;
 }
 
+/* Utilizar selector para aplicar propiedades a el ID "principal" */
 #principal {
     background-color: #118299;
+}
+
+/* Utilizar selector para aplicar propiedades a el ID "principal" */
+#principal:hover {
+    background-color: #5e9911;
 }
 
 /* Utilizar selector para aplicar propiedades a la clase "fuenteArial" */
