@@ -79,6 +79,12 @@ aside {
     border-radius: 8px;
 }
 
+aside img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+}
+
 /* Utilizar selector para aplicar propiedades a <footer> */
 footer {
     background-color: #005f73;
