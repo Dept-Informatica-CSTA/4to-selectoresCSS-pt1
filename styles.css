@@ -46,22 +46,12 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Contenedor principal */
-.contenedor {
-    width: 80%;
-    margin: 20px auto;
-    overflow: hidden;
-}
-
 /* Sección principal */
 main {
     float: left;
     width: 70%;
-}
-
-section {
-    background: white;
     padding: 20px;
+    background: white;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -73,12 +63,16 @@ aside {
     background: #ddd;
     padding: 20px;
     border-radius: 8px;
+    margin-left: 20px;
 }
 
 /* Limpiar floats */
-.clearfix::after {
-    content: "";
-    display: block;
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
     clear: both;
 }
 
@@ -87,14 +81,4 @@ aside {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-}
-
-/* Footer */
-footer {
-    background-color: #005f73;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    clear: both;
 }
